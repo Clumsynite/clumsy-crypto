@@ -62,8 +62,8 @@ const Today = (props) => {
 
   return (
     <div>
-      <h6>Current Price</h6>
-      <div className="rates row bg-light text-dark shadow-sm mb-4">{cell}</div>
+      <div className="fs-5 font-lighter">Current Price</div>
+      <div className="row bg-light text-dark shadow mb-4 border">{cell}</div>
     </div>
   );
 };
