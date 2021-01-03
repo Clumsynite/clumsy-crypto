@@ -29,6 +29,12 @@ const Today = (props) => {
       }
     };
     fetchPrice();
+
+    return () => {
+      setBtc("");
+      setEth("");
+      setLtc("");
+    };
   }, [currency]);
 
   const cell = crypto.map((coin, index) => {
@@ -51,7 +57,7 @@ const Today = (props) => {
         )}
         {coin.value !== "" && (
           <div className="fs-4">
-            {symbol}
+            {String.fromCharCode(symbol)}
             {coin.value}
           </div>
         )}

@@ -35,6 +35,9 @@ const History = (props) => {
       setRates(array);
     };
     get5dayRates();
+    return () => {
+      setRates([]);
+    };
     // eslint-disable-next-line
   }, [currency]);
 
@@ -65,7 +68,7 @@ const History = (props) => {
           )}
           {coin.value !== "" && (
             <div className="text-center">
-              1 {coin.shortname} = {symbol}
+              1 {coin.shortname} = {String.fromCharCode(symbol)}
               {coin.value}
             </div>
           )}
