@@ -9,7 +9,7 @@ const App = () => {
   return (
     <div className="App pb-5">
       <nav
-        className="navbar navbar-light shadow-sm mb-3 navbar-expand-sm "
+        className="navbar navbar-light shadow-sm mb-3 navbar-expand-sm sticky-top"
         style={{ backgroundColor: "#e3f2fd" }}
       >
         <div className="container-fluid">
@@ -52,6 +52,10 @@ const App = () => {
         </div>
       </nav>
       <div className="container px-4">
+        <div id="Description" className="fs-3 fw-lighter text-center p-4">
+          Clumsy Crypto is a Progressive Web App which displays realtime price
+          information about BTC, ETH and LTC.
+        </div>
         <Today currency={currency} symbol={symbol} />
         <History currency={currency} symbol={symbol} />
       </div>
