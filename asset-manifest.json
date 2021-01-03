@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.js": "/clumsy-crypto/static/js/main.9e55c65c.chunk.js",
+    "main.js.map": "/clumsy-crypto/static/js/main.9e55c65c.chunk.js.map",
+    "runtime-main.js": "/clumsy-crypto/static/js/runtime-main.c501f272.js",
+    "runtime-main.js.map": "/clumsy-crypto/static/js/runtime-main.c501f272.js.map",
+    "static/js/2.d086faae.chunk.js": "/clumsy-crypto/static/js/2.d086faae.chunk.js",
+    "static/js/2.d086faae.chunk.js.map": "/clumsy-crypto/static/js/2.d086faae.chunk.js.map",
+    "static/js/3.ef9f5363.chunk.js": "/clumsy-crypto/static/js/3.ef9f5363.chunk.js",
+    "static/js/3.ef9f5363.chunk.js.map": "/clumsy-crypto/static/js/3.ef9f5363.chunk.js.map",
+    "index.html": "/clumsy-crypto/index.html",
+    "service-worker.js": "/clumsy-crypto/service-worker.js",
+    "service-worker.js.map": "/clumsy-crypto/service-worker.js.map",
+    "static/js/2.d086faae.chunk.js.LICENSE.txt": "/clumsy-crypto/static/js/2.d086faae.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c501f272.js",
+    "static/js/2.d086faae.chunk.js",
+    "static/js/main.9e55c65c.chunk.js"
+  ]
+}
