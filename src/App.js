@@ -7,7 +7,7 @@ const App = () => {
   const [symbol, setSymbol] = useState("$");
 
   return (
-    <div className="App">
+    <div className="App pb-5">
       <nav
         className="navbar navbar-light shadow-sm mb-3"
         style={{ backgroundColor: "#e3f2fd" }}
