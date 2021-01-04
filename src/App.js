@@ -13,9 +13,9 @@ const App = () => {
         style={{ backgroundColor: "#e3f2fd" }}
       >
         <div className="container-fluid">
-          <a className="navbar-brand" href="/">
+          <span className="navbar-brand" style={{ cursor: "pointer" }}>
             Clumsy Crypto
-          </a>
+          </span>
           <button
             className="navbar-toggler"
             type="button"
@@ -38,6 +38,7 @@ const App = () => {
                     setCurrency(e.target.value);
                     setSymbol(symbols[e.target.value]);
                   }}
+                  style={{ cursor: "pointer" }}
                 >
                   <option value="USD" title="United States Dollars">
                     USD
